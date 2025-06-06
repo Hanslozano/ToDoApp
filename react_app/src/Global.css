@@ -1,0 +1,107 @@
+/*body{
+    background-color: hsl(0, 5%, 12%);
+    color: white;
+    max-width: 400px;
+    text-align: center;
+}
+
+ .card {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 100%, 0.5);
+}
+
+.image {
+    max-width: 350px;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 50%;
+} 
+
+.welcome {
+    text-align: center;
+    background-color: hsl(120, 48%, 67%);
+    color: white;
+    font-size: 2em;
+}
+
+.login {
+    text-align: center;
+    background-color: hsl(12, 100%, 58%);
+    color: white;
+    font-size: 2em;
+} 
+
+.ShoeCategory  {
+    font-size: 2.5em;
+    border: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color: rgb(255, 184, 78);
+    cursor: pointer;
+    color: rgb(61, 61, 61);
+}
+
+.ShoeCategory:hover {
+    color: black;
+}
+
+.ShoeLists li {
+    font-size: 2.5em;
+    list-style: none;
+    border: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color: rgb(251, 229, 197);
+    cursor: pointer;
+    color: rgb(61, 61, 61);
+}
+
+.ShoeLists li:hover {
+    color: rgb(0, 0, 0);;
+}
+
+
+
+#CatButton {
+    max-width: 350px;
+    width: 300px;
+    position: sticky;
+    top: 0;
+}
+
+*/
+
+body{
+    font-family: fantasy;
+}
+
+.Container {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.ColorSelector{
+    height: 200px;
+    margin-bottom: 20px;
+    width: 350px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    transition: 0.25s ease ;
+    display: flex;
+}
+
+label {
+    font-size: 2em;
+}
+
+
+
